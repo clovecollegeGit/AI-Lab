@@ -1,0 +1,65 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Responsive Navigation Menu</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <nav class="navbar">
+        <div class="logo">My Website</div>
+
+        <button class="hamburger" id="hamburger"
+                aria-label="Open navigation menu"
+                aria-expanded="false">
+            ☰
+        </button>
+
+        <ul class="nav-links" id="navLinks">
+
+            <li class="dropdown">
+                <a href="#">Home</a>
+                <ul class="dropdown-menu">
+                    <li><a href="#">Welcome</a></li>
+                    <li><a href="#">Latest News</a></li>
+                </ul>
+            </li>
+
+            <li class="dropdown">
+                <a href="#">About</a>
+                <ul class="dropdown-menu">
+                    <li><a href="#">Our Story</a></li>
+                    <li><a href="#">Our Team</a></li>
+                </ul>
+            </li>
+
+            <li class="dropdown">
+                <a href="#">Services</a>
+                <ul class="dropdown-menu">
+                    <li><a href="#">Web Design</a></li>
+                    <li><a href="#">Development</a></li>
+                </ul>
+            </li>
+
+            <li class="dropdown">
+                <a href="#">Contact</a>
+                <ul class="dropdown-menu">
+                    <li><a href="#">Email Us</a></li>
+                    <li><a href="#">Location</a></li>
+                </ul>
+            </li>
+
+        </ul>
+    </nav>
+
+    <main>
+        <h1>Welcome to My Website</h1>
+        <p>This website features a responsive navigation menu.</p>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+</html>
